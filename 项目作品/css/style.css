@@ -1,0 +1,78 @@
+.btn > input {
+            position: absolute;
+            top: 40%;
+            left: 45%;
+			font-size: large;
+            text-transform: uppercase;
+            width: 200px;
+            height: 50px;
+            border:none;
+			border-radius: 20%;				
+            background-size: 300% 300%;
+            background-position: 0% 50%;
+			letter-spacing: 2px;
+			opacity: 0.7;
+            background: linear-gradient(to right, #00ff7f, #aaffff, #aaff7f);
+			transition: width 1.0s , height 1.0s , transform 1.0s;
+            outline: none;
+            cursor: pointer;
+			z-index: -1;
+        }
+.btn > input:hover {
+            color: #fff;
+            background-position: 100%;
+		    transform: rotate(360deg);	
+			width: 200px;
+			height: 100px;
+			transition: 1.0s;
+			font-size: 30px;
+        }
+		#loginbox{
+			padding: 25px 45px;
+			width: 25%;
+			height: 21.00rem;
+			text-align: center;
+			margin: 0 auto;
+			margin-top: 150px;
+			background-color: #fffae8;
+			color: #FFAA7F;
+			background: linear-gradient(to right, #fffae8, #ffede1, #ffede1, #fffae8);
+			border-radius: 20px;
+			display: none;
+			z-index: 2;
+			}
+		#loginbox .form{
+			margin-top: 50px;
+		}
+		#loginbox .form .uap input{
+			width: 200px;
+			height: 10px;
+			border: 0;
+			border-bottom: 2px solid rgb(255, 170, 127);
+			background:	none;
+			padding: 6px 10px;
+			color: rgb(255, 170, 127);
+		}
+		.loginbox .form .uap{
+			margin: 5px;
+		}
+		#loginbox button {
+			    background:linear-gradient(to right, #ffdda1, #ffd5a2, #ffc198, #ffd5a2, #ffdda1);
+			    color: white;
+			    padding: 14px 20px;
+			    margin: 8px 0;
+			    cursor: pointer;
+			    width: 50%;
+				border: none;
+				border-radius: 30px;
+				font-size: 15px;
+				letter-spacing: 3px;
+				opacity: 0.6;
+				font-weight: 600;
+			}
+			
+			button:hover {
+				transform: translateY(-5px);
+				transition: 0.5s;
+				background-position-x:200% ;
+			}
