@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css">
+	<script type="text/javascript" src="./js/script.js"></script>
+	</script>
+	<style>
+		body{
+			background: url('图片1.jpg');
+			background-size: 100%
+			background-repeat: no-repeat;
+		}
+	</style>
+			</head>
+	<body>
+		<div class="bac"></div>
+		<div class="btn">
+			<input type="button" value="Begin" onclick="document.getElementById('loginbox').style.display = ' block ' " id="btn1">
+		</div>
+		<div id="loginbox">
+			<h1>Login</h1>
+			<div class="form">
+				<div class="uap">
+					<p>E-mail:&ensp;&ensp;<input type="email" placeholder=""></p>   <!--输入你的邮箱-->
+				</div>
+				<div class="uap">
+					<p>Password:<input type="password" placeholder="" ></p>       <!--输入你的密码-->
+				</div>
+			</div><br>
+			<button onclick=" ">登陆</button><br>			<!--进入登录后界面-->
+			<button onclick=" ">注册</button><br>    <!--跳转至注册界面-->
+			&ensp;&ensp;<a href="#" onclick="alert('我也帮不了你呀,你自己搞丢咯,但是以后要记得密码哦')">忘记密码？</a>
+		</div>
+	</body>
+</html>
